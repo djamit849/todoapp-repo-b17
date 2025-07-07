@@ -18,3 +18,7 @@ resource "azurerm_resource_group" "rg4" {
     name     = "amit-rg4"
     location = "Central India"
 }   
+resource "azurerm_resource_group" "rg5" {
+    name     = "amit-rg5"
+    location = "Central India"
+}   
