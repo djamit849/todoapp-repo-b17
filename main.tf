@@ -8,9 +8,13 @@ resource "azurerm_resource_group" "rg1" {
 }
 resource "azurerm_resource_group" "rg2" {
     name     = "amit-rg2"
+    location = "Central India"
+}
+resource "azurerm_resource_group" "rg3" {
+    name     = "amit-rg3"
     location = "Central India" 
 }
 resource "azurerm_resource_group" "rg4" {
     name     = "amit-rg4"
-    location = "Central India" 
-}
+    location = "Central India"
+}   
